@@ -1,0 +1,24 @@
+{
+  "name": "Demo-oauth-kong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "mkcert": "^1.4.0",
+    "node-fetch": "^2.6.1",
+    "node-fetch-polyfill": "^2.0.6",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,9 @@
+<h1>authorization</h1>
+
+<p>welcome <%= name %> , <%= id %></p>
+
+
+<form action="https://localhost:7788/kong/oauth2/authorize" method="POST"}>
+    <input type="text" id="id" name="id" value= <%= id %>><br/>
+    <button type="submit" >authorization application</button>
+</form>

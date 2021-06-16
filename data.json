@@ -1,0 +1,32 @@
+{
+    "001": {
+        "email": "alice@test.com",
+        "role": "staff",
+        "balance": 500,
+        "payload": [
+            {"date": "2021-01-01", "value": 200},
+            {"date": "2021-01-02", "value": 570},
+            {"date": "2021-01-03", "value": 20}
+        ]
+    },
+    "002": {
+        "email": "bob@test.com",
+        "role": "engineer",
+        "balance": 450,
+        "payload": [
+            {"date": "2021-01-01", "value": 1000},
+            {"date": "2021-01-02", "value": 500},
+            {"date": "2021-01-03", "value": 7}
+        ]
+    },
+    "003": {
+        "email": "jame@test.com",
+        "role": "dev",
+        "balance": 250,
+        "payload": [
+            {"date": "2021-01-01", "value": 100},
+            {"date": "2021-01-02", "value": 20},
+            {"date": "2021-01-03", "value": 500}
+        ]
+    }
+}
