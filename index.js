@@ -45,7 +45,7 @@ app.post('/kong/oauth2/authorize', async  (req, res) => {
 
       let response = await axios({
         method: 'post',
-        url: 'https://192.168.1.119:9443/api/authen/oauth2/authorize',
+        url: 'https://localhost:9443/api/authen/oauth2/authorize',
         data:{
           "client_id": process.env.CONSUMER_CLIENT_ID,
           "response_type": "code",
